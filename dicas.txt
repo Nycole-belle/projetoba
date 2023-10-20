@@ -1,0 +1,33 @@
+SQL Alchemy 
+
+
+1- Estrutura do projeto 
+
+
+Criar ambiente virtual —>
+
+* Pip install fasta psycopg2-binary sqlalchemy asyncpg uvicorn
+
+*Pacote do psycopg2-binary é necessario para trabalhar com postgree e asyncpg 
+
+
+2- pip freeze> requirements.txt (verificar se as bibliotecas)
+
+
+Diretório 
+
+api
+core (núcleo do sistemas arquivos comuns a todo o projeto) 
+models
+schemas ( local onde é feito a conversão dos dados para comunicação entre o banco de dados e vice versa) serelizacao e descelizacao 
+
+
+Core ——> arquivos 
+
+configs.py ——> configurações gerais do projetos 
+database.py ——-> banco de dados 
+deps.py —— dependências do projeto 
+
+
+Configs 
+
