@@ -8,6 +8,7 @@ class CursoSchema(SCBaseModel):
     titulo: str
     aulas: int
     horas: int
+    descricao: str
 
     class Config:
         orm_mode = True

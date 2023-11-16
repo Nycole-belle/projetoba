@@ -10,3 +10,4 @@ class CursoModel(settings.DBBaseModel):
     titulo: str = Column(String(100))
     aulas: int = Column(Integer)
     horas: int = Column(Integer)
+    descricao: str = Column(String(140))
